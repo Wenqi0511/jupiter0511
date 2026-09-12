@@ -30,6 +30,18 @@
       {% if author.employer %}
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
       {% endif %}
+            {% if author.university %}
+        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.university }}</li>
+      {% endif %}
+      {% if author.major %}
+        <li class="author__desktop"><i class="fas fa-fw fa-graduation-cap icon-pad-right" aria-hidden="true"></i>{{ author.major }}</li>
+      {% endif %}
+      {% if author.birthday %}
+        <li class="author__desktop"><i class="fas fa-fw fa-cake-candles icon-pad-right" aria-hidden="true"></i>{{ author.birthday }}</li>
+      {% endif %}
+      {% if author.phone %}
+        <li><a href="tel:{{ author.phone }}"><i class="fas fa-fw fa-phone icon-pad-right" aria-hidden="true"></i>Phone</a></li>
+      {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
