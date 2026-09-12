@@ -11,9 +11,17 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2026 – present, Journalism, Nanjing University (Graduate Student)
+* 2022 – 2026,  Journalism, Shandong University (Undergraduate)
+
+Awards
+======
+* National Scholarship （2024、2025）
+* Shandong University Outstanding Student First Class Scholarship（2023、2024、2025）
+* Shandong University Special Talent Scholarship（2024、2025）
+* Outstanding Graduate of Shandong University（2026）
+* Top 10 Student Journalists of Shandong University（2025）
+
 
 Work experience
 ======
